@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+        <script type="text/javascript" src="jquery-2.x-min.js"></script>
+        <script type="text/javascript" src="csv.min.js"></script>
+
+        <script type="text/javascript" src="params.json"></script>
+
+        <script type="text/javascript" src="jap.js"></script>
+    </head>
+    <body>
+        <div id ="config" style="font-size: 2em;">
+        </div>
+        <br/><br/>
+        <div id ="buttonConfig">
+            <button type="button" style="font-size: 8em;" onclick="configure()">OK</button>
+        </div>
+        <div id="training" style="display:none;">
+            <div>
+                <select id="mode" style="font-size: 3em;">
+                    <option>JP -> FR</option>
+                    <option>FR -> JP</option>
+                </select>
+            </div>
+            <br/>
+            <br/>          
+            <span id="JP" style="cursor: pointer; font-size: 5em;" onclick="unhide();">JAPANESE</span><br/>
+            <br/>
+            <br/>
+            <span id="FR" style="cursor: pointer; font-size: 5em;" onclick="unhide();">FRENCH</span><br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <button type="button" id="BUTTON" style="cursor: pointer; font-size: 8em;" onclick="onNext();">START</button>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,8 @@
+var WordLists = 
+    [
+        "dates",
+        "nombres",
+        "transports",
+        "verbes",
+        "vocabulaire"
+    ];
