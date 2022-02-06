@@ -2,6 +2,9 @@
         var Words = new Array();
         var Idx = 0;
         var Mode = 0;
+        const JP = 0;
+        const HIRAKATA = 1;
+        const FR = 2;
 
         function addCheckboxes(name)
         {
@@ -54,12 +57,13 @@
             Mode = $("#mode").get(0).value;
             Idx = Math.floor(Math.random() * Words.length);
             if(Mode === "JP -> FR"){
-                $("#JP").text(Words[Idx][0]);
+                let obj = $("#JP").text(Words[Idx][JP]+"\n"+Words[Idx][HIRAKATA]);
+                obj.html(obj.html().replace(/\n/g,'<br/>'));
                 $("#FR").text(Masked);
             }
             else {
                 $("#JP").text(Masked);
-                $("#FR").text(Words[Idx][1]);
+                $("#FR").text(Words[Idx][FR]);
             }
             $("BUTTON").text("NEXT");
         }
@@ -67,10 +71,11 @@
         function unhide()
         {
             if(Mode === "JP -> FR"){
-                $("#FR").text(Words[Idx][1]);
+                $("#FR").text(Words[Idx][FR]);
             }
             else {
-                $("#JP").text(Words[Idx][0]);
+                let obj = $("#JP").text(Words[Idx][JP]+"\n"+Words[Idx][HIRAKATA]);
+                obj.html(obj.html().replace(/\n/g,'<br/>'));
             }
            
         }
