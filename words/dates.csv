@@ -1,93 +1,91 @@
-tanjyôbi;たんじょうび;anniversaire
-hahanohi;ははのひ;Fête de mère
-chichinohi;ちちのひ;Fête de père
-kuïsumasu;くりすます;Noël
-oshiôgatsu;おしょうがつ;jour de l’an
-barentaïnde;ばれんたいんでー ;St.Valentin
-itsu;いつ;quand
-asa;あさ;matin
-iru;ひる;jour, midi
-ban / yoru;ばん / よる;soir
-kesa;けさ;ce matin
-konban;こんばん;ce soir
-yûbe;ゆうべ;hier soir
-gozenchyû;ごぜんちゅう;dans la matinée
-kyonogogo;きょうのごご;cet après-midi
-banshyû;こんしゅう;cette semaine
-raïshyû;らいしゅう;la semaine prochaine
-saraïshyû;さらいしゅう;dans 2 semaines
-senshyû;せんしゅう;la semaine dernière
-sensenshyû;せんせんしゅう;il y a 2 semaines
-kongetsu;こんげつ;ce mois
-raïgetsu;らいげつ;mois prochain
-saraïgetsu;さらいげつ;dans 2 mois
-maïtsuki;まいつき;tous les mois
-sengetsu;せんげつ;le mois dernier
-kotoshi;ことし;Cette année
-raïnen;らいねん;L’année prochaine
-saraïnen;さらいねん;Dans 2 ans
-kyonen;きょねん;L’année dernière
-ototoshi;おととし;Il y a 2 ans
-shyûmatsu;しゅうまつ;fin de semaine
-konshyûmatsu;こんしゅうまつ;ce week-end
-raïshyûmatsu;らいしゅうまつ;le prochain week-end
-senshyûmatsu;せんしゅうまつ;le week-end dernier
-nenmatsu;ねんまつ;La fin d’année
-getsumatsu;げつまつ;La fin du mois
-maïasa;まいあさ;tous les matins
-maïnichi;まいにち;tous les jours
-maïban;まいばん; tous les soirs
-maïshyû;まいしゅう;toutes les semaines
-maïtsuki;まいつき; tous les soirs
-maïren / maïtoshi;まいねん、まいとし;toutes les années
-Ichigatsu;いちがつ;janvier
-Nigatsu;にがつ;février
-Sangatsu;さんがつ;mars
-Shigatsu;しがつ;avril
-Gogatsu;ごがつ;mai
-Rikugatsu;ろくがつ;juin
-Shichigatsu;しちがつ;Juillet
-Hachigatsu;はちがつ;Août
-Kugatsu;くがつ;Septembre
-Jyûgatsu;じゅうがつ;Octobre
-Jyûitchigatsu;じゅういちがつ;Novembre
-Jyûnigatsu;じゅうにがつ;décembre
-nangatsu;なんがつ;quel mois
-Tsuïtatsu;ついたち;Le 1er
-Futsuka;ふつか;Le 2
-Mikka;みっか;Le 3
-Yokka;よっか;Le 4
-Itsuka;いつか;Le 5
-Muikka;むいか;Le 6
-Nanoka;なのか;Le 7
-Yôka;ようか;Le 8 
-Kokonoka;ここのか;Le 9
-Tôka;とおか;Le 10 
-Jyûyokka;じゅうよっか;le 14
-Hatsuka;はつか;le 20
-NiJyûyôka;にじゅうよっか;le 24
-nanichi;なんにち;quel jour
-getsuyôbi;げつようび;lundi
-kayôbi;かようび;mardi
-suïyôbi;すいようび;mercredi
-mokuyôbi;もくようび;jeudi
-kinyôbi;きんようび;vendredi
-dôyôbi;どようび;samedi
-nichiyôbi;にちようび ;dimanche
-nan-yôbi; なんようび;quel jour de la semaine?
-kyô; ;aujourd'hui
-ashita; ;demain
-asatte; ;après-demain
-kinô; ;hier
-ototoi; ;avant-hier
-gozen; ;AM
-gogo; ;PM
-kara; ;depuis, de
-made; ;jusqu'à
-shÃ´go; ;midi pile
-ikura; ;combien
-shigotoba; ;lieu de travail
-hiruyasumi; ;pause déjeuner
-toshi; ;Âge
-nansai; ;quel âge as-tu?
-oikutsu; ;quel âge avez-vous?
+たんじょうび;anniversaire
+ははのひ;Fête de mère
+ちちのひ;Fête de père
+くりすます;Noël
+おしょうがつ;jour de l’an
+ばれんたいんでー ;St.Valentin
+いつ;quand
+あさ;matin
+ひる;jour, midi
+ばん / よる;soir
+けさ;ce matin
+こんばん;ce soir
+ゆうべ;hier soir
+ごぜんちゅう;dans la matinée
+きょうのごご;cet après-midi
+こんしゅう;cette semaine
+らいしゅう;la semaine prochaine
+さらいしゅう;dans 2 semaines
+せんしゅう;la semaine dernière
+せんせんしゅう;il y a 2 semaines
+こんげつ;ce mois
+らいげつ;mois prochain
+さらいげつ;dans 2 mois
+まいつき;tous les mois
+せんげつ;le mois dernier
+ことし;Cette année
+らいねん;L’année prochaine
+さらいねん;Dans 2 ans
+きょねん;L’année dernière
+おととし;Il y a 2 ans
+しゅうまつ;fin de semaine
+こんしゅうまつ;ce week-end
+らいしゅうまつ;le prochain week-end
+せんしゅうまつ;le week-end dernier
+ねんまつ;La fin d’année
+げつまつ;La fin du mois
+まいあさ;tous les matins
+まいにち;tous les jours
+まいばん; tous les soirs
+まいしゅう;toutes les semaines
+まいつき; tous les soirs
+まいねん、まいとし;toutes les années
+いちがつ;janvier
+にがつ;février
+さんがつ;mars
+しがつ;avril
+ごがつ;mai
+ろくがつ;juin
+しちがつ;Juillet
+はちがつ;Août
+くがつ;Septembre
+じゅうがつ;Octobre
+じゅういちがつ;Novembre
+じゅうにがつ;décembre
+なんがつ;quel mois
+ついたち;Le 1er
+ふつか;Le 2
+みっか;Le 3
+よっか;Le 4
+いつか;Le 5
+むいか;Le 6
+なのか;Le 7
+ようか;Le 8 
+ここのか;Le 9
+とおか;Le 10 
+じゅうよっか;le 14
+はつか;le 20
+にじゅうよっか;le 24
+なんにち;quel jour
+げつようび;lundi
+かようび;mardi
+sすいようび;mercredi
+もくようび;jeudi
+きんようび;vendredi
+どようび;samedi
+にちようび ;dimanche
+なんようび;quel jour de la semaine?
+kyô;aujourd'hui
+ashita;demain
+asatte;après-demain
+kinô;hier
+ototoi;avant-hier
+gozen;AM
+gogo;PM
+kara;depuis, de
+made;jusqu'à
+shôgo;midi pile
+hiruyasumi;pause déjeuner
+toshi;Âge
+nansai;quel âge as-tu?
+oikutsu;quel âge avez-vous?

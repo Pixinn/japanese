@@ -4,5 +4,6 @@ var WordLists =
         "nombres",
         "transports",
         "verbes",
-        "vocabulaire"
+        "vocabulaire",
+        "L6"
     ];

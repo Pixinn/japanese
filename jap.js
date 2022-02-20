@@ -3,8 +3,7 @@
         var Idx = 0;
         var Mode = 0;
         const JP = 0;
-        const HIRAKATA = 1;
-        const FR = 2;
+        const FR = 1;
 
         function addCheckboxes(name)
         {
@@ -57,7 +56,7 @@
             Mode = $("#mode").get(0).value;
             Idx = Math.floor(Math.random() * Words.length);
             if(Mode === "JP -> FR"){
-                let obj = $("#JP").text(Words[Idx][JP]+"\n"+Words[Idx][HIRAKATA]);
+                let obj = $("#JP").text(Words[Idx][JP]);
                 obj.html(obj.html().replace(/\n/g,'<br/>'));
                 $("#FR").text(Masked);
             }
@@ -74,7 +73,7 @@
                 $("#FR").text(Words[Idx][FR]);
             }
             else {
-                let obj = $("#JP").text(Words[Idx][JP]+"\n"+Words[Idx][HIRAKATA]);
+                let obj = $("#JP").text(Words[Idx][JP]);
                 obj.html(obj.html().replace(/\n/g,'<br/>'));
             }
            
